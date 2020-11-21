@@ -1,18 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 
 import { ProblemContextProvider } from './problem/problem-context';
-import Problem from './problem/problem-dom'
+import Problem from './problem/problem-dom';
 
 import * as constants from './constants';
 
+const initState = [...constants.PROBLEMS];
 
-const initState = [...constants.PROBLEMS]
-
-const App = () => {
+const App = () => (
   <ProblemContextProvider initState={initState}>
     <Problem />
   </ProblemContextProvider>
-}
+);
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
