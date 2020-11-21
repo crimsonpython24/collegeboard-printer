@@ -1,0 +1,26 @@
+{
+  "name": "collegeboard-printer",
+  "version": "1.0.0",
+  "description": "A tool that automatically formats a CollegeBoard problem set",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "antd": "^4.8.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crimsonpython24/collegeboard-printer.git"
+  },
+  "author": "crimsonpython24",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/crimsonpython24/collegeboard-printer/issues"
+  },
+  "homepage": "https://github.com/crimsonpython24/collegeboard-printer#readme"
+}
