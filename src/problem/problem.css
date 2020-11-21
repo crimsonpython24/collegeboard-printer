@@ -1,0 +1,26 @@
+.problem-title {
+  background-color: #f0f0f0;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.problem-title > * {
+  padding-left: 48px;
+  margin-bottom: 0px !important;
+}
+
+.problem-paragraphs,
+.problem-question {
+  padding-top: 24px;
+}
+
+.problem-paragraph > * {
+  color: #000000
+}
+
+.problem-citation {
+  display: flex;
+  justify-content: flex-end;
+}
